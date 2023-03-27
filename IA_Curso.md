@@ -77,4 +77,122 @@ Ejemplos de las herramientas utilizadas en el día a día que utilicen inteligen
 1. Entender: Asistentes Virtuales (Alexa, Siri). Chat-GPT
 1. Generación: Dall-E, Chat GPT
 
+## Conceptos y Aplicaciones de la IA
+
+- Inteligencia Artificial
+Es todo aquello de una manera no biológica intenta replicar el comportaiento y el pensamiento humano. (Modelos, algoritmos) 
+
+- Machine Learning 
+Algoritmos con base matematica (algebraica, probabilidad y estadictica), para llevar a entender a la IA como puede tomar desiciones. 
+
+Se encuentran modelos de clasificacion, modelos de regresión basados entecnicas algebraicas, estadistica y de probabilidad para simular de manera algoritmica el comportamiento humano.
+
+- Deep Learning 
+Son algoritmos con base matemática para simular la inteligencia humana, utilizando redes neuronales. De modo que entre mas redes se conecten en las capas  se tendra un aprendizaje profundo de como resolver problemas simulando el comportamiento humano.
+
+## Aprendizaje de la IA
+
+- Aprendizaje supervisado
+
+Todos aquellos algoritos de IA que tienen una variable objetivo que pueda ser optimizado.
+
+Ej. Que casificar y como entrenarlo para hacer la clasificación.
+
+1. Datos Etiquetados
+1. Etiquetas
+1. Entrenamiento de modelo
+1. Predicción
+
+- Aprendizaje no supervisado.
+
+No existe la variable objetivo. Separa los datos por caracteristicas comunes entre los datos para hacer grupos o clusters.
+
+- Aprendizaje por refuerzo
+
+Se tiene un objetivo especifico, no una variable. Se busca mediante un sistema de reconpesas que el modelo aprenda a optimizar para ese objetivo.
+
+## Aplicaciones de la IA
+
+- NLP: Procesamiento del Lenguaje Natural
+
+Algoritmos que simulan la comprension semántica de cualquier lenguaje, y enseñarle esa complenjidad a un modelo de IA.
+
+- Visión Artificial (Computer Vision)
+
+Tareas para clasificar imagenes. Especificar en una imagen que encuentro.
+
+Ej. Segmentar objetos, encontrar personas.
+
+- Robotica
+
+Asociación de movimientos para automatizar tareas.
+
+- IA Generativa
+Se clasifica lo que ya existe, o se puede generar algo nuevo.
+
+## Data Science Y Sub usos de IA
+
+Data Science: Es un campo completo que trabaja bajo otros subcampos. Se encarga de darle valor a los datos.
+
+- Matematicas y estadisticas
+- Conocimiento del dominio o negocio
+- Ciencias Computacionales 
+
+El cientifico de datos es el encargado de darle valor a los datos utilizando tecnicas matematicas, programacion y conocimiento de negocios.
+
+> Data Science, es el proceso de analizar datos y generar predicciones para toma de desiciones y para crear productos con datos. Y puede o no Utilizar herramientas de inteligencia artificial para buscar darle valor a los datos. 
+
+La Inteligencia artificial es una herramienta que se puede utilizar en el proceso de la ciencia de datos.
+
+### Sub Usos de la IA
+
+- Clasificación (Grupos)
+- Rgresión (Predicción numerica): Predicción numerica de un valor continuo. Intentar predecir un valor continuo numerico.
+- Dataset: SOn los datos que se utilizan para crear un modelo de IA (-Datapoint: Filas que se tienen en el dataset par trabajar)
+- Split: El dataset se debe separar para poder entrenar y probar el modelo de IA.
+
+## Como Funciona el Machine Learning
+
+Existen una serie de algoritmos los cuales pueden aprender como un humano, utilizando gran cantidad de datos.
+
+En el Machine Learning se tienen datos y que se quiere que salgan de esos datos (respuestas), El algoritmos genera las reglas que se van a utilizar luego para generar nuevas predicciones.
+
+El cliclo de vida de un proyecto de machine learning es común para todos los proyectos, sin importar el tipo de tarea o los datos de entradas.
+
+## Ciclo de vida de un proyecto de Machine Learning
+
+1. Recopilar Datos (Bases de datos, sensores, usuarios)
+1. Preparación de datos: Eliminar ruido, partes faltasntes, datos innecesarios
+1. Hipotesis y modelado: Elegir un modelo de machine learning
+Modelo: Representación sencilla de una realidad compleja.
+1. Entrenamiento del modelo: Combiar los datos y el modelo elegido, entrenar el modelo para dar predicciones
+1. Evaluación del modelo: Ver si el modelo aprendio la tarea. Entregandole datos que no haya visto nunca.
+1. Producción: El modelo empieza a producir (Dinero, clientes, etc)
+1. Mejora y ajuste: Ajustar el modelo en base a los datos recolectados de los usuarios
+1. Iterar: Para que el modelo sea adaptable si cambian las reglas del negocio
+
+## Casos de éxito y areas de oportunidad en la industria
+
+- Open AI: Asociado con Microsoft para desarrollar Inteligencia Artificial
+- Hugging Face: Sin animo de lucro, Open source
+- Deep Mind: Filial de Google para Inteligencia Artificial
+
+### Productos
+
+- Jasper: Producto para la generacion de texto y campaña para organizaciones. Funciona con GPT 3
+
+- Stability AI: Open Source, creadores Stable Diffusion
+
+- Midjourney: Modelo Texto / imagenes, funciona bajo discord, es la cuenta mas seguida en discord.
+
+- Innumerables Organizaciones: Empresas de cualquier sector economico se apoya de IA (Reducir costos, incrementar ganancias, mejorar procesos)
+
+### Mejoras
+
+- Sesgos: Un modelo entrenado desde datos con sesgos economicos raciales o de genero y esto influye en la toma de desiciones de la IA.
+
+- Cambio CLimatico: Alto consumo de CO2
+
+### Reto: Ideas de mejora para la IA, Implementacion de ideas que no se haya hecho aun con la IA 
+
 
