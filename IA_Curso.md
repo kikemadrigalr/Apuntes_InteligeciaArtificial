@@ -195,4 +195,33 @@ Modelo: Representación sencilla de una realidad compleja.
 
 ### Reto: Ideas de mejora para la IA, Implementacion de ideas que no se haya hecho aun con la IA 
 
+## ¿Qué es y como funciona el deep learning? 
+
+#### Redes neuronales artificiales
+Son poderosos algoritmos que tienen una propiedas de universalidad. Es decir que pueden imitar cualquier función natural o artificial.
+
+Su parte mas simple es la neurona, y consiste de entrdas y pesos los cuales se multiplican por las entradas y luego todo se suma. Luego se pasa a una funcion no lineal.
+
+### Red Neuronal Monocapa
+Cuando se colocan muchas neuronas juntas en paralelo. Puede hacer muchas tareas.
+
+### Red Neuronal De deep learning
+Los modelos modernos pueden tener miles de capas. Cada capa obtiene la informacion de la capa anterior, la condensa hasta llegar a insides especificos. 
+
+### Como aprenden 
+Si se cambian los pesos de las neuronas, la salida cambiará. Si se cambian todos los pesos de la red neuronal para un problema especifico, habriamos aprendido a resover ese problema.
+
+Para encontrar los pesos especificos se utiliza un proceso llamada BAg Propagation, que obtiene todos los datos de entrenamiento, se los pasa al modelo y asi va a aprendiendo a medida que recibe nuevos datos
+
+Deep learning es una subsección del Machine Learning que a su ves es una subsección de la inteligencia artificial que se encarga unicamente de las redes neuronales multicapas. Demostrando una gran capacidad de resolver problemas, apoyadas de muchisimos datos
+
+## Cuando NO Utilizar Deep Learning 
+
+1. Tienes muy pocos datos: Los modelos de deep learning utilizan gran cantidad de datos. Entre mas grande el modelo mayor cantidad de datos.
+
+1. Tienes problemas sencillos: Si el problema se puede resolver por reglas de negocios sencillas o machine learning convencional.
+
+El Deep learning puede tener precision menos al 100% es decir que puede generar errores. 
+
+1. Limitaciones de Hardware: El deep learning corre sobre GPU. Por tendencia los modelos son cada vez mas grnades.
 
