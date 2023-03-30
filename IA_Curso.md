@@ -225,3 +225,123 @@ El Deep learning puede tener precision menos al 100% es decir que puede generar 
 
 1. Limitaciones de Hardware: El deep learning corre sobre GPU. Por tendencia los modelos son cada vez mas grnades.
 
+## Visión Artificial
+Las imagenes están compuestas por miles de pixeles que se ecienden y apagan con distinta intensidad para dar la sesancion de una imagen continua. Cada pixel esta compuesto por los colores rojo, verde y azul.
+
+A cada color se le asigna un numero y convertir la imagen en numero. En base a esto la computador puede responder preguntas.
+
+### Que es la vision artificial?
+Es una tecnica de IA que busca emular como el cerebro descubre patrones dentro de una imagen.
+
+- Detectar objetos dentro de una imagen.
+
+- Se puede utilizar para analizar imagenes medicas (tomografías, rayos x, etc) y hacer diagnosticos de manera mas eficiente.
+
+- Autoss autonomos, La IA artificial toma imagenes de las camaras al rededor del auto, genera una simulacion 3D de la carretera y logra predecir hacia donde se moveran los otros autos.
+
+### Para aplicar Visión artificial
+
+1. Se necesita un lengiaje de programación, el mas popular pyton
+
+1. OpenCB permite transformar y manipular imagenes
+
+1. Framework de machine learning para tomar decisiones y aplicar deep learning. ej, Tensorflow, pytorch, jax
+
+- Otras soluciones comunes son las soluciones en la nube. 
+1. Vision AI de Google
+1. Azure Cognitive Services de Microsoft
+1. Amazon recognition
+
+>La Visión Artificial es una rama de la inteligencia artificial que se enfoca en el desarrollo de sistemas capaces de interpretar, analizar y entender imágenes y videos en tiempo real. La visión artificial se utiliza en una amplia variedad de aplicaciones, incluyendo la detección de objetos, el reconocimiento de patrones, la segmentación de imágenes y la clasificación de objetos.
+
+>Para que un sistema de visión artificial pueda interpretar una imagen, se requiere de una serie de algoritmos y técnicas. En general, estos algoritmos se dividen en dos categorías: procesamiento de imágenes y aprendizaje automático.
+El procesamiento de imágenes se enfoca en el preprocesamiento de las imágenes, lo que incluye operaciones como la eliminación de ruido y la mejora del contraste. Por otro lado, el aprendizaje automático se enfoca en la creación de modelos que puedan reconocer patrones y realizar tareas específicas, como la detección de objetos o la segmentación de imágenes.
+
+## Aplicaciones de la Visión Artificial
+
+La Visión Artificial tiene una amplia variedad de aplicaciones, incluyendo:
+
+Detección y clasificación de objetos: se utiliza para identificar y clasificar objetos en imágenes y videos.
+Seguimiento de objetos: se utiliza para seguir un objeto a medida que se mueve a través de una secuencia de imágenes o videos.
+Reconocimiento facial: se utiliza para identificar y autenticar a las personas basándose en sus características faciales.
+Automatización industrial: se utiliza para supervisar y controlar los procesos de producción en fábricas.
+Vehículos autónomos: se utiliza para permitir que los vehículos autónomos reconozcan objetos y tomen decisiones basadas en las imágenes capturadas por las cámaras.
+Medicina: se utiliza para detectar y diagnosticar enfermedades a través de imágenes médicas.
+
+## Procesamiento del lenguaje natural (PLN, NLP)
+
+> La inteligencia nos permite desarrollar lenguaje: un sistema de comunicación que usa simbolos de forma estructurada para dar significado a las cosas.
+
+> El lenguaje es la joya de la corona de la cognición.
+Para entender que algo es inteligente el lenguaje es un elemento fundamental. Es lenguaje es evidencia de inteligencia.
+
+### ¿Que es el procesamiento del lenguaje natural?
+Enseñar a las maquinas a procesar y analizar lenguaje humano (texto, audio)
+
+- Traducir
+- Resumen
+- Clasificación
+- Conversación
+- Generación
+
+### Tareas posibles
+
+1. Faciles
+    - Correción ortográfica
+    - Recuperación de información basada en palabras clave
+    - Modelado de temas
+
+1. Medio
+    - Clasificación de textos
+    - Extracción de Información
+    - Agente conversacional de dominio cerrado
+    - Resumen de texto
+
+1. Dificil
+    - Respuesta a preguntas
+    - Maquina traductora
+    - Agente conversacional de dominio abierto
+
+## Modelos de Lenguaje (LLM)
+
+> Large Lenguaje Models: No Pueden resolver los problemas de la AGI
+por si solos. Se requiere contexto de otros canales cognitivo (audio, video, los demas sentidos)
+
+Algoritmos que son modelos estadisticos del lenguaje que se entrenan con grandes cantidades de información. 
+
+Un algoritmo de procesamiento del lengiaje es bueno y sifuciente en la medida de que sea capaz de realizar diferentes tareas (traducir, clasificar) de modo razonable.
+
+### Reto de la clase
+Escoger 3 aplicaciones del espectro de procesamiento del lenguaje que realizen dichas tareas.
+
+## Enfoque multimodal en IA
+El enfoque multimodal en IA se refiere a la combinación de diferentes modalidades de entrada, como imágenes, audio y texto, para resolver problemas complejos que involucran la percepción y comprensión humana. A través de esta combinación de modalidades, se busca emular la capacidad humana de procesar información de diferentes fuentes y modalidades.
+
+La IA multimodal ha demostrado ser efectiva en una variedad de aplicaciones, como la clasificación de imágenes y la comprensión del lenguaje natural en contextos más amplios. Por ejemplo, en lugar de depender exclusivamente del texto, la IA multimodal puede utilizar imágenes y audio para comprender el contexto y la intención detrás de las palabras.
+
+## Aprendizaje por Refuerzo (Reinforcement Learning)
+
+### Sistema de recompensas
+
+Un modelo de inteligencia artificial capaz de aprender cualquier cosa basado en sistema de recompensas.
+
+Se tiene una un agente que realiza una acción la cual modifica el ambiente, se tiene un ente observador que garantiza que la acción fue buena o mala (Si cumple el objetivo o no). Si fue buena se le da una recompensa positiva si no por el contrario le da una recompensa negativo, logrando asi que el agente aprenda cuales son los caminos correcto para optimazar el objetivo.
+
+> El aprendizaje por refuerzo se puede comparar con un perro que aprende a realizar trucos. Si el perro realiza un truco correctamente, recibe una golosina como recompensa, pero si lo hace mal, no recibe nada o incluso recibe un castigo. Con el tiempo, el perro aprende qué comportamientos son buenos y cuáles son malos, y ajusta su comportamiento para maximizar la cantidad de golosinas que recibe. Del mismo modo, en el aprendizaje por refuerzo, el agente aprende a tomar decisiones que maximizan la recompensa recibida del ambiente.
+
+### Dónde se utiliza en aprenizaje por refuerzo
+
+- Vehiculos Autonomos (Parar cuando hay transeuntes, conducir, parar en los semaforos)
+- Juegos de movimientos 
+- Videojuegos (El algoritmo aprende a tomar desiciones basadas en el ambiente y optimiza el como deberia comportarse)
+- Trading (Movimientos financieros de inversiones)
+- Industri Eólica (Ajuste de los molinos de acuerdo a la velocidad del viento, clima para obtener mejor energía)
+- Agro (Detectar plagas, flujo de cuidado de las plantas)
+- Algoritmos para optimizar algoritmos
+
+## Inteligencia Artificial Generativa
+
+
+
+
+
